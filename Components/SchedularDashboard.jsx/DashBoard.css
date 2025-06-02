@@ -1,0 +1,83 @@
+.schedule-manager {
+    padding: 20px;
+    background-color: #121212;
+    color: gold;
+    font-family: sans-serif;
+    margin-top: 20px;
+  }
+  
+  /* Form row - wrap on small screens */
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .form-row input,
+  .form-row button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    min-width: 140px;
+    flex: 1 1 auto;
+  }
+  
+  button {
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ffd700;
+  }
+  
+  /* Responsive table */
+  .schedule-table {
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  .schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px; /* keep structure on large screens */
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    padding: 10px;
+    border: 1px solid gold;
+    text-align: center;
+    font-size: 14px;
+    word-break: break-word;
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 600px) {
+    .form-row input,
+    .form-row button {
+      flex: 1 1 100%;
+      min-width: unset;
+    }
+  
+    .schedule-table table {
+      min-width: unset;
+      font-size: 10px;
+    }
+  
+    .schedule-table th,
+    .schedule-table td {
+      padding: 6px;
+    }
+  
+    .schedule-manager {
+      padding: 10px;
+    }
+  }
+  

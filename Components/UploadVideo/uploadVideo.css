@@ -1,0 +1,107 @@
+/* Centering the form */
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .upload-card {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  /* Form Spacing */
+  .upload-card .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  .upload-card label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: gold;
+  }
+  
+  /* Input and Textarea Styling */
+  .upload-card input,
+  .upload-card textarea {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .upload-card textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  /* File Upload Styling */
+  .file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+  
+  .file-upload input {
+    display: none;
+  }
+  
+  .file-upload label {
+    cursor: pointer;
+    color: gold;
+    font-weight: 600;
+  }
+  
+  .file-name {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  /* Button Styling */
+  .upload-btn {
+    background: gold;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  .upload-btn:hover {
+    background: #ffd700;
+    color: black;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .upload-card {
+      padding: 20px;
+      width: 90%;
+    }
+  }
+  

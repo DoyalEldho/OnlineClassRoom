@@ -1,0 +1,66 @@
+
+.video-container {
+  width: 100%;
+  max-width: 100%; 
+  padding: 15px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  border: 5px solid #13c892;
+}
+
+  .video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .video-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  
+  .video-time {
+    font-size: 12px;
+    color: #bbb;
+  }
+  
+  .video-wrapper {
+    position: relative;
+  }
+  
+  /* 🎯 Responsive Video for Mobile */
+  video {
+    width: 100%;
+    max-height: 350px; /* Default for larger screens */
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  /* 📱 Mobile View */
+  @media (max-width: 768px) {
+    .video-container {
+      padding: 15px;
+    }
+  
+    .video-title {
+      font-size: 16px;
+    }
+  
+    .video-description {
+      font-size: 12px;
+    }
+  
+    .video-time {
+      font-size: 11px;
+    }
+  
+    video {
+      max-height: 200px; /* Smaller video for mobile */
+   
+    }
+  }
+  

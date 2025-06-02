@@ -1,0 +1,94 @@
+.friend-request {
+    width: 100%; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    
+  }
+  
+  .request-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .request-header span {
+    color: #4267B2;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .request-header span:hover {
+    text-decoration: underline;
+  }
+  
+  .request-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .mutual-friends {
+    font-size: 14px;
+    color: #777;
+    margin: 3px 0 0;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .confirm {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+  }
+  
+  .confirm:hover {
+    background-color: #365899;
+  }
+  
+  .delete {
+    background-color: #ddd;
+    color: #333;
+    border: 1px solid #bbb;
+  }
+  
+  .delete:hover {
+    background-color: #bbb;
+  }
+  

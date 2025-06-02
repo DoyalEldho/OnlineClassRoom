@@ -1,0 +1,45 @@
+.signup-box {
+    width: 100%;
+    padding: 12px;
+    background: #FFD700; /* Gold color */
+    color: #FFFFFF; /* White text */
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal-box input {
+    padding: 8px;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  .modal-box button {
+    margin-top: 15px;
+    padding: 10px 20px;
+  }
+  

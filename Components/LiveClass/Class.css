@@ -1,0 +1,110 @@
+/* Desktop (Default Styles) */
+.link-container {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .class-link {
+    color: #1A73E8;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .link-head {
+    color: black;
+    margin-right: 5px;
+  }
+  
+  
+  .upload-class,
+  .record-btn,
+  .record-stop-btn,
+  .exit-btn {
+    margin-left: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  .record-btn {
+    color: green;
+  }
+  
+  .record-stop-btn {
+    color: red;
+  }
+  
+  .upload-class {
+    color: rgb(132, 22, 3);
+  }
+  
+  .exit-btn {
+    color: red;
+    position: absolute;
+    right: 30px;
+  }
+  
+  /* Tablet View (769px - 1024px) */
+  @media screen and (max-width: 1024px) {
+    .link-container {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 18px;
+      gap: 10px;
+    }
+  
+    .class-link {
+      font-size: 14px;
+    }
+  
+
+    .upload-class,
+    .record-btn,
+    .record-stop-btn {
+      margin-left: 30px;
+      font-size: 14px;
+    }
+  
+    .exit-btn {
+      position: relative;
+      align-self: flex-end;
+      margin-top: 2px;
+      font-size: 15px;
+    }
+  }
+  
+  /* Mobile View (≤768px) */
+  @media screen and (max-width: 768px) {
+    .link-container {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+      gap: 8px;
+    }
+  
+    .class-link {
+      font-size: 14px;
+      word-break: break-word;
+
+    }
+  
+    .upload-class,
+    .record-btn,
+    .record-stop-btn {
+      font-size: 14px;
+      margin-left: 40px;
+    }
+  
+    .exit-btn {
+      font-size: 14px;
+      align-self: flex-end;
+      margin-top: 28px;
+    }
+  }
+  
